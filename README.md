@@ -33,6 +33,7 @@ access to:
 
 ## Step 1. Run the Cloudformation template
 Our template will create the Sagemaker notebook, the IAM roles/policies, Opensearch domain, and S3 bucket on your behalf. The rest of the demo will be run from the sagemaker notebook deployed. 
+** It can take around 30 min for your stack to complete with all resources fully deployed
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
