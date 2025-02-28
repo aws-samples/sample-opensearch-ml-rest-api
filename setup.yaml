@@ -170,7 +170,7 @@ Resources:
                 Action:
                   - 'es:ESHttpPost'
                 Resource: 
-                  - OpenSearchDomain.Arn
+                  - !Sub 'arn:${AWS::Partition}:es:${AWS::Region}:${AWS::AccountId}:domain/ml-commons-demo-2-17/*
 
   SageMakerNotebook:
     Type: AWS::SageMaker::NotebookInstance
