@@ -32,7 +32,7 @@ access to:
 
 ## Step 1. Request Titan Text Embeddings v2 model access
 In your AWS Account, Go to the Bedrock Console. In the left hand menu, if you scroll down, you will see a section titled **Bedrock Configurations**. Click on **Model Access**
-![model access](images/model_access.png)
+![model access](images/model_access.PNG)
 
 Click on the orange button that says **Modify model access** and enable access to the **Titan Text Embeddings V2** model
 ![model_access2](images/model_access2.png)
