@@ -124,7 +124,7 @@ Resources:
                 Action:
                   - 'cloudformation:DescribeStacks'
                 Resource:
-                  !Sub 'arn:aws:cloudformation:${AWS::Region}:${AWS::AccountId}:stack/OpenSearchSageMakerDemo/*'
+                  !Sub 'arn:aws:cloudformation:${AWS::Region}:${AWS::AccountId}:stack/*'
               - Effect: Allow
                 Action:
                   - 'iam:PassRole'
