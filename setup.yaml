@@ -165,7 +165,7 @@ Resources:
                 Action:
                   - 'iam:PassRole'
                 Resource:
-                  SageMakerOpenSearchRole.Arn
+                  - !Sub 'arn:${AWS::Partition}:iam::${AWS::AccountId}:role/${AWS::Region}-${AWS::AccountId}-SageMaker-OpenSearch-demo-role'
               - Effect: Allow
                 Action:
                   - 'es:ESHttpPost'
