@@ -30,8 +30,16 @@ access to:
 6. Invoke Amazon Comprehend APIs
 7. Invoke Amazon Bedrock Models
 
+## Step 1. Request Titan Text Embeddings v2 model access
+In your AWS Account, Go to the Bedrock Console. In the left hand menu, if you scroll down, you will see a section titled **Bedrock Configurations**. Click on **Model Access**
+![model access](images/model_access.png)
 
-## Step 1. Run the Cloudformation template
+Click on the orange button that says **Modify model access** and enable access to the **Titan Text Embeddings V2** model
+![model_access2](images/model_access2.png)
+
+
+
+## Step 2. Run the Cloudformation template
 Our template will create the Sagemaker notebook, the IAM roles/policies, Opensearch domain, and S3 bucket on your behalf. The rest of the demo will be run from the sagemaker notebook deployed. 
 ** It can take around 30 min for your stack to complete with all resources fully deployed
 
